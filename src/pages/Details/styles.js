@@ -64,8 +64,8 @@ export const Container = styled.div`
     }
 
     > img {
-      width: 16.5rem;
-      height: 16.5rem;
+      width: 13rem;
+      height: 13rem;
       margin-top: 1rem;
       margin-bottom: 1rem;
     }

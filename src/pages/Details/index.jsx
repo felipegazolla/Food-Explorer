@@ -6,6 +6,7 @@ import { useState } from "react"
 import { Ingredient } from "../../components/Ingredient"
 import { CaretLeft, Plus, Minus } from "@phosphor-icons/react";
 import SaladaRavanello from "../../assets/Mask group.png"
+import { Footer } from "../../components/Footer"
 
 export function Details() {
   const [menuIsOpen, setMenuIsOpen] = useState(false)
@@ -50,6 +51,7 @@ export function Details() {
           </div>
         </div>
     </Container>
+    <Footer />
     </>
   )
 }
